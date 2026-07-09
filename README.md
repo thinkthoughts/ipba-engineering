@@ -8,9 +8,16 @@ Engineering benefit distribution as an observable system state through telemetry
 
 **Benefit Distribution Specifies Sustainable Development**
 
-Sustainable development requires more than creating capability. It requires measuring where benefits arrive, where they do not arrive, and how deployment policies change that distribution.
+This repository turns the idea of globally beneficial technology into an engineering workflow:
 
-## Notebook sequence
+1. deploy capability,
+2. observe who benefits,
+3. estimate a benefit-distribution state,
+4. simulate alternative deployments,
+5. update policy or design,
+6. benchmark progress against development indicators.
+
+## Notebooks
 
 - `notebooks/00_context.ipynb` — benefit distribution as an engineering variable.
 - `notebooks/07_state_variable.ipynb` — planned.

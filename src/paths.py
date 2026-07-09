@@ -1,6 +1,12 @@
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+def find_repo_root() -> Path:
+    cwd = Path.cwd()
+    if cwd.name == "notebooks":
+        return cwd.parent
+    return cwd
+
+ROOT = find_repo_root()
 FIGURES = ROOT / "figures"
 RESULTS = ROOT / "results"
 DATA = ROOT / "data"
