@@ -3,23 +3,24 @@ Reusable infrastructure for benefits-distribution notebooks.
 """
 
 from .context import RepositoryContext
+from .export import finalize_notebook
+from .figures import generate_context_figures
 from .paths import (
-    ROOT,
-    FIGURES,
-    RESULTS,
     DATA,
+    FIGURES,
     NOTEBOOKS,
+    RESULTS,
+    ROOT,
     initialize_directories,
 )
-from .figures import (
-    generate_context_figures,
-)
-from .export import (
-    finalize_notebook,
+from .validation import (
+    ContextValidationError,
+    validate_context,
 )
 
 __all__ = [
     "RepositoryContext",
+    "ContextValidationError",
     "ROOT",
     "FIGURES",
     "RESULTS",
@@ -27,5 +28,6 @@ __all__ = [
     "NOTEBOOKS",
     "initialize_directories",
     "generate_context_figures",
+    "validate_context",
     "finalize_notebook",
 ]
