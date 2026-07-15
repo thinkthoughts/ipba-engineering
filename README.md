@@ -1,12 +1,12 @@
 # Benefits Distribution
 
-This repository specifies benefit distribution as an engineering variable for sustainable development.
+This repository specifies information bundling as an engineering variable for allocation efficiency.
 
-It develops a connected engineering specification for modeling, measuring, and improving benefit distribution.
+It develops a connected engineering specification for modeling, measuring, and improving information bundling.
 
 ## Engineering statement
 
-> **Benefit Distribution Specifies Sustainable Development**
+> **Information Bundling Specifies Sustainable Development**
 
 <img src="figures/information-bundling-auctions-repo.png" />
 
