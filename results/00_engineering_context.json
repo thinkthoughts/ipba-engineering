@@ -1,0 +1,73 @@
+{
+  "repository": "information-bundling-auctions",
+  "repository_description": "This repository develops an engineering specification for information bundling in auctions and its effect on allocation efficiency.",
+  "engineering_statement_title": "Engineering Statement",
+  "engineering_statement": "Information constraints specify allocation efficiency.",
+  "grammar_title": "Specification Grammar",
+  "grammar": [
+    "Constraint",
+    "Connected lane",
+    "Engineering object",
+    "Engineering variable",
+    "Observable state",
+    "Indicator"
+  ],
+  "constraint": "information constraints",
+  "connected_lane": "information constraints \u2192 information bundles \u2192 bidder signals \u2192 allocation regime",
+  "engineering_objects": [
+    "auction environment",
+    "information structure",
+    "information bundle",
+    "allocation mechanism"
+  ],
+  "engineering_variables": [
+    "bundle composition",
+    "signal informativeness",
+    "bid response",
+    "allocation efficiency"
+  ],
+  "observable_states": [
+    "bid profile",
+    "allocation state",
+    "welfare state"
+  ],
+  "indicators": [
+    "allocation efficiency",
+    "seller revenue",
+    "bidder welfare"
+  ],
+  "lane_symbols": [
+    "$I$",
+    "$B$",
+    "$s_i$",
+    "$a$"
+  ],
+  "lane_labels": [
+    "Information constraints",
+    "Information bundles",
+    "Bidder signals",
+    "Allocation regime"
+  ],
+  "repository_variable_title": "Information Bundling as an Engineering Variable",
+  "lane_relationships": [
+    "specify",
+    "generate",
+    "specify"
+  ],
+  "repository_sequence_title": "Repository Notebook Sequence",
+  "repository_sequence_caption": "Each notebook develops an engineering concept.",
+  "construction_sequence": [
+    "00 Engineering Context",
+    "07 Auction Environment",
+    "13 Information Bundles",
+    "17 Bidder Signals",
+    "23 Allocation Regimes",
+    "29 Mechanism Optimization",
+    "37 Comparative Statics",
+    "43 Benchmarks"
+  ],
+  "design_principle": "Admissible generalizations trail leading specifications.",
+  "next_notebook": "07_auction_environment.ipynb",
+  "source": "arXiv:2601.09541v1",
+  "notes": "Initial context prepared before the seminar."
+}
