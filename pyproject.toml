@@ -3,9 +3,9 @@ requires = ["setuptools>=75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "information-bundling-auctions"
+name = "ibpa-engineering"
 version = "0.1.0"
-description = "Information bundling as an engineering variable for allocation efficiency."
+description = "Engineering implementation of Information-Bundling Position Auctions (IBPA)."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
