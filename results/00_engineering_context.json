@@ -1,5 +1,5 @@
 {
-  "repository": "information-bundling-auctions",
+  "repository": "ibpa-engineering",
   "repository_description": "This repository develops an engineering specification for information bundling in auctions and its effect on allocation efficiency.",
   "engineering_statement_title": "Engineering Statement",
   "engineering_statement": "Information constraints specify allocation efficiency.",
